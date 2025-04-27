@@ -20,7 +20,7 @@ function Heading() {
 
       {/* Nav list */}
       <nav>
-        <ul className="flex gap-6">
+        <ul className="hidden lg:flex gap-6">
           <li className="tracking-widest text-lg">
             <a href="#about" onClick={() => handleClick("about")}>
               About

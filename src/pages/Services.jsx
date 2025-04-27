@@ -34,7 +34,7 @@ function Services() {
         >
           Our Services
         </motion.h2>
-        <div className="grid gap-3 grid-cols-3">
+        <div className="grid gap-3 lg:grid-cols-3">
           {services.map((service) => (
             <motion.div
               key={service.id}
